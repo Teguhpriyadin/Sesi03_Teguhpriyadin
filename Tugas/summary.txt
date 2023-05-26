@@ -1,0 +1,26 @@
+CSS Selector
+
+Sebuah penanda, elemen/tag HTML yang ingin diberi style. Anda dapat menuliskan langsung nama tag yang ingin diberi style tanpa perlu menambahkan tanda <>.
+
+Pada contoh kode CSS di atas, kita akan memberi style pada seluruh tag h1 yang terdapat dalam file HTML.
+
+
+
+Aturan
+
+Class TIDAK unik
+
+Kita bisa menggunakan class yang sama untuk element HTML lebih dari satu  Kita bisa menggunakan lebih dari satu class pada element HTML yang sama  Class menggunakan simbol . (dot) di depan namanya
+
+
+ID bersifat unik
+
+Setiap element hanya boleh memliki satu id. Setiap page hanya boleh memiliki satu element dengan id tersebut Id menggunakan  simbol # (hash) di depan namanya
+
+Property dan Value
+
+Property adalah sifat-sifat yang ingin diterapkan pada selector, seperti warna text, warna background, jarak antar elemen, garis pinggir dan lain sebagainya.
+
+Untuk memberikan nilai/value pada property kita gunakan tanda titik dua ( : ). Setiap property diakhiri dengan titik koma (;), jika anda tidak mengakhirinya maka browser tidak akan mengetahui maksud dari property tersebut.
+
+Property-property pada CSS sangat mudah dimengerti karena lebih mirip bahasa kita sehari-hari. Misalnya untuk merubah warna text kita gunakan property color, untuk merubah warna background kita gunakan property background-color, untuk merubah ukuran huruf kita gunakan property font-size.

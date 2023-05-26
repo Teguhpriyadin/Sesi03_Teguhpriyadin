@@ -1,0 +1,108 @@
+
+@media screen and (max-width:768px) {
+        .profile-photo{
+          width: 50%;
+        } .profile-text { 
+              width:50%;
+        }
+        nav ul {
+          width: 50%;
+        }
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: grey;
+  display: flex;
+  justify-content: space-around; 
+}
+
+h4{
+  margin: 20px 12px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 20px 12px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  background-color: grey;
+}
+
+section {
+  margin: 20px;
+}
+
+.profile{
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.profile-text{
+  padding: 20px;
+}
+
+.kontak{
+  color: white;
+  background: blue;
+  border-radius: 10px;
+  padding: 5px;
+  border-style: solid;
+  border-color: blue;
+  margin: 5px;
+}
+
+.resume{
+  color: green;
+  background: white;
+  border-radius: 10px;
+  padding: 5px;
+  border-color: green;
+  border-style: solid;
+  margin: 5px;
+}
+
+table{
+  padding: 20px;
+}
+form {
+  background-color: white;
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+form input[type="submit"] {
+  margin: 0;
+  background-color: green;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* tambahkan CSS untuk section profile disini */
